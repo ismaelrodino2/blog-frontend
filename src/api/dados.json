@@ -1,0 +1,139 @@
+{
+    "data": {
+        "setting": {
+            "id": "61326f0ad2f1b2af1f8a0ac6",
+            "blogName": "Tudo sobre programação",
+            "blogDescription": "Tudo sobre programação e mais!",
+            "logo": {
+                "id": "613297d2d2f1b2af1f8a0acb",
+                "alternativeText": "",
+                "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1630705612/Pngtree_coffee_3626459_b0789a57c7.png"
+            },
+            "menuLink": [
+                {
+                    "id": "61326f0ad2f1b2af1f8a0ac7",
+                    "link": "#home",
+                    "text": "home",
+                    "newTab": false
+                },
+                {
+                    "id": "61326f0ad2f1b2af1f8a0ac8",
+                    "link": "#about",
+                    "text": "about",
+                    "newTab": false
+                },
+                {
+                    "id": "6132980dd2f1b2af1f8a0acf",
+                    "link": "#blog",
+                    "text": "blog",
+                    "newTab": false
+                },
+                {
+                    "id": "6132980dd2f1b2af1f8a0ad0",
+                    "link": "#link3",
+                    "text": "link 3",
+                    "newTab": false
+                }
+            ],
+            "text": "<p>Texto da footer</p>"
+        },
+        "posts": [
+            {
+                "id": "613267d6a9790b922e702d3c",
+                "slug": "use-state-hook",
+                "title": "useState hook",
+                "excerpt": "What does calling useState do? It declares a “state variable”. Our variable is called count but we could call it anything else, like banana ",
+                "content": "<p><strong>What does calling useState do?</strong> It declares a “state variable”. Our variable is called count but we could call it anything else, like banana. This is a way to “preserve” some values between the function calls — useState is a new way to use the exact same capabilities that this.state provides in a class. Normally, variables “disappear” when the function exits but state variables are preserved by React.</p>",
+                "allowComments": true,
+                "cover": {
+                    "id": "613267b6a9790b922e702d3b",
+                    "alternativeText": "",
+                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1630693297/pexels_vitaly_vlasov_1342460_67724091e3.jpg"
+                },
+                "categories": [
+                    {
+                        "id": "61325959a9790b922e702d37",
+                        "displayName": "React",
+                        "slug": "react"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "6132598aa9790b922e702d39",
+                        "displayName": "useState",
+                        "slug": "use-state"
+                    }
+                ],
+                "author": {
+                    "id": "613258d2a9790b922e702d35",
+                    "displayName": "Ismael Rodino",
+                    "slug": "ismael-rodino"
+                }
+            },
+            {
+                "id": "61326891a9790b922e702d3f",
+                "slug": "use-effect",
+                "title": "useEffect",
+                "excerpt": "Sometimes, we want to run some additional code after React has updated the DOM. Network requests, manual DOM mutations, and logging are common examples of effects that don’t require a cleanup. \n\n",
+                "content": "<p>This snippet is based on the <a href=\"https://reactjs.org/docs/hooks-state.html\">counter example from the previous page</a>, but we added a new feature to it: we set the document title to a custom message including the number of clicks.</p><p>Data fetching, setting up a subscription, and manually changing the DOM in React components are all examples of side effects. Whether or not you’re used to calling these operations “side effects” (or just “effects”), you’ve likely performed them in your components before.</p><blockquote><p><strong>Tip</strong></p><p>If you’re familiar with React class lifecycle methods, you can think of useEffect Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.</p></blockquote><p>There are two common kinds of side effects in React components: those that don’t require cleanup, and those that do. Let’s look at this distinction in more detail.</p>",
+                "allowComments": true,
+                "cover": {
+                    "id": "61326817a9790b922e702d3e",
+                    "alternativeText": "",
+                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1630693393/pexels_sora_shimazaki_5935794_3cd5ea9593.jpg"
+                },
+                "categories": [
+                    {
+                        "id": "61325959a9790b922e702d37",
+                        "displayName": "React",
+                        "slug": "react"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "613259a1a9790b922e702d3a",
+                        "displayName": "useEffect",
+                        "slug": "use-effect"
+                    }
+                ],
+                "author": {
+                    "id": "613258d2a9790b922e702d35",
+                    "displayName": "Ismael Rodino",
+                    "slug": "ismael-rodino"
+                }
+            },
+            {
+                "id": "6132698ba9790b922e702d43",
+                "slug": "java-script",
+                "title": "JavaScript",
+                "excerpt": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+                "content": "<p><strong>JavaScript</strong> (<a href=\"https://en.wikipedia.org/wiki/Help:IPA/English\">/ˈdʒɑːvəˌskrɪpt/</a>),<a href=\"https://en.wikipedia.org/wiki/JavaScript#cite_note-9\">[9]</a> often abbreviated as <strong>JS</strong>, is a <a href=\"https://en.wikipedia.org/wiki/Programming_language\">programming language</a> that conforms to the <a href=\"https://en.wikipedia.org/wiki/ECMAScript\">ECMAScript</a> specification.<a href=\"https://en.wikipedia.org/wiki/JavaScript#cite_note-tc39-10\">[10]</a> JavaScript is <a href=\"https://en.wikipedia.org/wiki/High-level_programming_language\">high-level</a>, often <a href=\"https://en.wikipedia.org/wiki/Just-in-time_compilation\">just-in-time compiled</a>, and <a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">multi-paradigm</a>. It has <a href=\"https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages\">curly-bracket syntax</a>, <a href=\"https://en.wikipedia.org/wiki/Dynamic_typing\">dynamic typing</a>, <a href=\"https://en.wikipedia.org/wiki/Prototype-based_programming\">prototype-based</a> <a href=\"https://en.wikipedia.org/wiki/Object-oriented_programming\">object-orientation</a>, and <a href=\"https://en.wikipedia.org/wiki/First-class_function\">first-class functions</a>.</p><p>Alongside <a href=\"https://en.wikipedia.org/wiki/HTML\">HTML</a> and <a href=\"https://en.wikipedia.org/wiki/CSS\">CSS</a>, JavaScript is one of the core technologies of the <a href=\"https://en.wikipedia.org/wiki/World_Wide_Web\">World Wide Web</a>.<a href=\"https://en.wikipedia.org/wiki/JavaScript#cite_note-11\">[11]</a> Over 97% of <a href=\"https://en.wikipedia.org/wiki/Website\">websites</a> use it <a href=\"https://en.wikipedia.org/wiki/Client-side\">client-side</a> for <a href=\"https://en.wikipedia.org/wiki/Web_page\">web page</a> behavior,<a href=\"https://en.wikipedia.org/wiki/JavaScript#cite_note-deployedstats-12\">[12]</a> often incorporating third-party <a href=\"https://en.wikipedia.org/wiki/Library_(computing)\">libraries</a>.<a href=\"https://en.wikipedia.org/wiki/JavaScript#cite_note-lib_usage-13\">[13]</a> Most <a href=\"https://en.wikipedia.org/wiki/Web_browser\">web browsers</a> have a dedicated <a href=\"https://en.wikipedia.org/wiki/JavaScript_engine\">JavaScript engine</a> to execute the code on the <a href=\"https://en.wikipedia.org/wiki/User_(computing)\">user</a>'s device.</p><p>As a multi-paradigm language, JavaScript supports <a href=\"https://en.wikipedia.org/wiki/Event-driven_programming\">event-driven</a>, <a href=\"https://en.wikipedia.org/wiki/Functional_programming\">functional</a>, and <a href=\"https://en.wikipedia.org/wiki/Imperative_programming\">imperative</a> <a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\">programming styles</a>. It has <a href=\"https://en.wikipedia.org/wiki/Application_programming_interface\">application programming interfaces</a> (APIs) for working with text, dates, <a href=\"https://en.wikipedia.org/wiki/Regular_expression\">regular expressions</a>, standard <a href=\"https://en.wikipedia.org/wiki/Data_structure\">data structures</a>, and the <a href=\"https://en.wikipedia.org/wiki/Document_Object_Model\">Document Object Model</a> (DOM).</p><p>The ECMAScript standard does not include any <a href=\"https://en.wikipedia.org/wiki/Input/output\">input/output</a> (I/O), such as <a href=\"https://en.wikipedia.org/wiki/Computer_network\">networking</a>, <a href=\"https://en.wikipedia.org/wiki/Data_storage\">storage</a>, or <a href=\"https://en.wikipedia.org/wiki/Computer_graphics\">graphics</a> facilities. In practice, the web browser or other <a href=\"https://en.wikipedia.org/wiki/Runtime_system\">runtime system</a> provides JavaScript APIs for I/O.</p><p>JavaScript engines were originally used only in web browsers, but they are now core components of <a href=\"https://en.wikipedia.org/wiki/JavaScript#Other_usage\">other</a> software systems, most notably <a href=\"https://en.wikipedia.org/wiki/Server_(computing)\">servers</a> and a variety of <a href=\"https://en.wikipedia.org/wiki/Application_software\">applications</a>.</p><p>Although there are similarities between JavaScript and <a href=\"https://en.wikipedia.org/wiki/Java_(programming_language)\">Java</a>, including language name, <a href=\"https://en.wikipedia.org/wiki/Syntax_(programming_languages)\">syntax</a>, and respective <a href=\"https://en.wikipedia.org/wiki/Standard_library\">standard libraries</a>, the two languages are distinct and differ greatly in design.</p>",
+                "allowComments": true,
+                "cover": {
+                    "id": "613267b6a9790b922e702d3b",
+                    "alternativeText": "",
+                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1630693297/pexels_vitaly_vlasov_1342460_67724091e3.jpg"
+                },
+                "categories": [
+                    {
+                        "id": "61325935a9790b922e702d36",
+                        "displayName": "JavaScript",
+                        "slug": "java-script"
+                    }
+                ],
+                "tags": [
+                    {
+                        "id": "613268c6a9790b922e702d41",
+                        "displayName": "Language",
+                        "slug": "language"
+                    }
+                ],
+                "author": {
+                    "id": "613258d2a9790b922e702d35",
+                    "displayName": "Ismael Rodino",
+                    "slug": "ismael-rodino"
+                }
+            }
+        ]
+    }
+}
