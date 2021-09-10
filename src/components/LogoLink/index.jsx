@@ -2,39 +2,33 @@ import P from "prop-types";
 import Image from "next/image";
 import mock from './mock'
 
-export const LogoLink = () => {
-  const args = {
-    text: "LOGO",
-    srcImg: "/eu.jpeg",
-    link: "https://github.com/ismaelrodino2",
-    newTab: false,
-    showText: true,
-  };
-  const target = args.newTab ? "_blank" : "_self"; //atenção ->args.
-  const showText = args.showText? mock: "";
+export const LogoLink = ({text, srcImg, link, newTab, showText}) => {
+
+  const target = newTab ? "_blank" : "_self"; //atenção ->args.
+  const showT = showText? mock: "";
   return (
-    <div className="flex p-4 main-container">
+    <div className="flex justify-center pb-4 main-container">
       <a
         target={target}
         rel="noopener noreferrer"
-        href={args.link}
+        href={link}
         className="text-5xl font-bold uppercase"
       >
-        {!!args.srcImg && (
-          <div className="relative w-32 h-32">
+        {!!srcImg && (
+          <div className="relative w-32 h-32 border-4 border-red-600 border-solid rounded-full">
             <Image
-              src={args.srcImg}
+              src={srcImg}
               className="rounded-full"
               layout="fill"
               alt={"teste"}
             />
           </div>
         )}
-        {!args.srcImg && args.text}
+        {!srcImg && text}
       </a>
       <div className="pl-5">
-        <h1 className="font-bold">{showText.blogName}</h1>
-        <p>{showText.blogDescription}</p>
+        <h1 className="font-bold text-white">{showT.blogName}</h1>
+        <p className="text-white">{showT.blogDescription}</p>
       </div>
     </div>
   );
