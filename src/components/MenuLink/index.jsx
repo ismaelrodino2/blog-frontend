@@ -1,4 +1,4 @@
-export const MenuLink = ({link, newTab, text}) => {
+export const MenuLink = ({ link, newTab, text }) => {
   const target = newTab ? '_blank' : '_self';
 
   return (
@@ -9,7 +9,6 @@ export const MenuLink = ({link, newTab, text}) => {
         className="pr-24 m-2 text-white border-r-4 border-black hover:border-red-600 hover:text-green-700"
       >
         {text}
-
       </a>
     </div>
   );

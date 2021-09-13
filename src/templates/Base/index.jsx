@@ -1,3 +1,1 @@
-export function Base(){
-    
-}
+export function Base() {}

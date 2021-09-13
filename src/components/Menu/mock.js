@@ -70,4 +70,4 @@ export default {
   ],
   blogName: 'Otávio Miranda',
   logo: '/eu.jpeg',
-} 
+};

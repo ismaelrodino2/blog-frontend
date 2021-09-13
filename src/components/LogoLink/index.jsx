@@ -1,11 +1,10 @@
-import P from "prop-types";
-import Image from "next/image";
-import mock from './mock'
+import P from 'prop-types';
+import Image from 'next/image';
+import mock from './mock';
 
-export const LogoLink = ({text, srcImg, link, newTab, showText}) => {
-
-  const target = newTab ? "_blank" : "_self"; //atenção ->args.
-  const showT = showText? mock: "";
+export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
+  const target = newTab ? '_blank' : '_self'; //atenção ->args.
+  const showT = showText ? mock : '';
   return (
     <div className="flex justify-center pb-4 main-container">
       <a
@@ -20,7 +19,7 @@ export const LogoLink = ({text, srcImg, link, newTab, showText}) => {
               src={srcImg}
               className="rounded-full"
               layout="fill"
-              alt={"teste"}
+              alt={'teste'}
             />
           </div>
         )}
