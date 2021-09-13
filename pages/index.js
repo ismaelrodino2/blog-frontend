@@ -10,12 +10,15 @@ import { PostCard } from '../src/components/PostCard';
 import { PostGrid } from '../src/components/PostGrid';
 import { PostTags } from '../src/components/PostTags';
 import { Base } from '../src/templates/Base';
+import { PostsTemplate } from '../src/templates/PostsTemplate';
+import { PostTemplate } from '../src/templates/PostTemplate';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div>
-      <Base />
+      <PostTemplate />
     </div>
   );
 }

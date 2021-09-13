@@ -6,7 +6,11 @@ export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
   const target = newTab ? '_blank' : '_self'; //atenção ->args.
   const showT = showText ? mock : '';
   return (
-    <div className="flex justify-center pb-4 main-container">
+    <div
+      className={`flex justify-center pb-4 main-container ${
+        showT && 'pb-10 pt-10'
+      }`}
+    >
       <a
         target={target}
         rel="noopener noreferrer"

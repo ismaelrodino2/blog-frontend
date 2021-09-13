@@ -5,20 +5,24 @@ import { Footer } from '../../components/Footer';
 import mock from './mock';
 import { Header } from '../../components/Header';
 
-export function Base({ children }) {
+export function Base({ settings, children }) {
   return (
     <>
       <Menu
-        links={mock.settings.menuLink}
-        blogName={mock.settings.blogName}
-        logo={mock.settings.logo}
+        links={settings.menuLink}
+        blogName={settings.blogName}
+        logo={settings.logo.url}
       />
       <div>
-        <Header />
+        <Header
+          blogName={settings.blogName}
+          blogDescription={settings.blogDescription}
+          logo={settings.logo.url}
+        />
       </div>
       <div>{children}</div>
       <div>
-        <Footer />
+        <Footer footerHtml={settings.text} />
       </div>
     </>
   );

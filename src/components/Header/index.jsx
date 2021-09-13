@@ -1,13 +1,13 @@
 import { LogoLink } from '../LogoLink';
 import mock from './mock';
-export function Header() {
+export function Header({blogName, blogDescription, logo}) {
   return (
     <div className="main-container">
       <div>
         <LogoLink
           link="/"
-          srcImg={mock.logo}
-          text={`${mock.blogName} = ${mock.blogDescription}`}
+          srcImg={logo}
+          text={`${blogName} = ${blogDescription}`}
           showText={true}
         />
       </div>

@@ -7,8 +7,8 @@ import { MenuLink } from '../MenuLink';
 
 import mock from './mock';
 
-export function Menu() {
-  const [menuVisible, setMenuVisible] = useState(true);
+export function Menu({ links, blogName, logo}) {
+  const [menuVisible, setMenuVisible] = useState(false);
   const handleOpenCloseMenu = (event) => {
     event.preventDefault();
     setMenuVisible((v) => !v);
@@ -35,12 +35,12 @@ export function Menu() {
         <nav className="py-12">
           <LogoLink
             link="/"
-            text={mock.blogName}
-            srcImg={mock.logo}
+            text={blogName}
+            srcImg={logo}
             newTab={false}
             showText={false}
           />
-          {mock.links.map((link) => (
+          {links.map((link) => (
             <MenuLink
               key={link.id}
               link={link.link}

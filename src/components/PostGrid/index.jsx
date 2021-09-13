@@ -1,10 +1,10 @@
 import { PostCard } from '../PostCard';
 import mock from '../PostCard/mock';
 
-export function PostGrid() {
+export function PostGrid({ posts }) {
   return (
     <div className="flex flex-col gap-3 md:flex-row main-container">
-      {mock.map((post) => {
+      {posts.map((post) => {
         return (
           <span key={post.id} className="md:w-1/3">
             <PostCard
