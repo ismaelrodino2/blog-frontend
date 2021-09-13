@@ -20,7 +20,7 @@ export function Menu() {
         onClick={handleOpenCloseMenu}
         aria-label="Open or close menu"
         title="Open or close menu"
-        className={`fixed z-10 w-12 h-12 text-red-600 transition duration-500 ease-in-out transform bg-black ${
+        className={`fixed z-20 w-12 h-12 text-red-600 transition duration-500 ease-in-out transform bg-black ${
           menuVisible ? 'translate-x-40' : 'translate-x-5 translate-y-5'
         }`}
       >
@@ -28,7 +28,7 @@ export function Menu() {
         {!menuVisible && <MenuIcon aria-label="Open menu" />}
       </a>
       <div
-        className={`fixed top-0 inline-flex flex-col h-screen transition duration-500 ease-in-out transform bg-black  ${
+        className={`fixed top-0 inline-flex flex-col h-screen transition duration-500 ease-in-out transform bg-black z-10  ${
           menuVisible ? 'translate-x-0 overflow-y-auto' : '-translate-x-60'
         }`}
       >
