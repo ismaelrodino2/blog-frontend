@@ -1,5 +1,6 @@
 import { PostCard } from '../PostCard';
 import mock from '../PostCard/mock';
+import PropTypes from 'prop-types';
 
 export function PostGrid({ posts }) {
   return (
@@ -19,3 +20,6 @@ export function PostGrid({ posts }) {
     </div>
   );
 }
+PostGrid.propTypes = {
+  posts: PropTypes.array,
+};

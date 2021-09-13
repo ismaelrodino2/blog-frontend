@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const MenuLink = ({ link, newTab, text }) => {
   const target = newTab ? '_blank' : '_self';
 
@@ -12,4 +14,9 @@ export const MenuLink = ({ link, newTab, text }) => {
       </a>
     </div>
   );
+};
+MenuLink.propTypes = {
+  text: PropTypes.string,
+  link: PropTypes.string,
+  newTab: PropTypes.bool,
 };

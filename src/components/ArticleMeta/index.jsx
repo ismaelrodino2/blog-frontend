@@ -3,6 +3,7 @@
 //     return date.toLocaleString('pt-BR', {
 //     });
 //   };
+import PropTypes from 'prop-types';
 
 export function ArticleMeta({ author, categories }) {
   return (
@@ -30,3 +31,8 @@ export function ArticleMeta({ author, categories }) {
     </div>
   );
 }
+
+ArticleMeta.propTypes = {
+  author: PropTypes.string,
+  categories: PropTypes.array,
+};

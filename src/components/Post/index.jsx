@@ -1,6 +1,7 @@
 import { ArticleHeader } from '../ArticleHeader';
 import { HtmlContent } from '../HtmlContent';
 import mock from './mock';
+import PropTypes from 'prop-types';
 
 export function Post({ post }) {
   return (
@@ -18,3 +19,6 @@ export function Post({ post }) {
     </div>
   );
 }
+Post.propTypes = {
+  post: PropTypes.array,
+};

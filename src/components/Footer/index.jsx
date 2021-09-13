@@ -1,4 +1,6 @@
-export const Footer = ({footerHtml}) => {
+import PropTypes from 'prop-types';
+
+export const Footer = ({ footerHtml }) => {
   return (
     <div>
       <div
@@ -9,4 +11,8 @@ export const Footer = ({footerHtml}) => {
       ></div>
     </div>
   );
+};
+
+Footer.propTypes = {
+  footerHtml: PropTypes.string,
 };

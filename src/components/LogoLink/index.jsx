@@ -1,6 +1,7 @@
 import P from 'prop-types';
 import Image from 'next/image';
 import mock from './mock';
+import PropTypes from 'prop-types';
 
 export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
   const target = newTab ? '_blank' : '_self'; //atenção ->args.
@@ -35,4 +36,11 @@ export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
       </div>
     </div>
   );
+};
+LogoLink.propTypes = {
+  text: PropTypes.string,
+  srcImg: PropTypes.string,
+  link: PropTypes.string,
+  newTab: PropTypes.bool,
+  showText: PropTypes.bool,
 };

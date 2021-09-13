@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import mock from './mock';
-export function PostTags({tags}) {
+import PropTypes from 'prop-types';
+
+export function PostTags({ tags }) {
   return (
     <div className="flex py-5 main-container">
       <p className="">tags: </p>
@@ -17,3 +19,6 @@ export function PostTags({tags}) {
     </div>
   );
 }
+PostTags.propTypes = {
+  tags: PropTypes.array,
+};

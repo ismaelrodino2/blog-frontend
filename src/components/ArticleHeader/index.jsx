@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { ArticleMeta } from '../ArticleMeta';
+import PropTypes from 'prop-types';
 
 export function ArticleHeader({
   author,
@@ -23,3 +24,13 @@ export function ArticleHeader({
     </div>
   );
 }
+
+ArticleHeader.propTypes = {
+  author: PropTypes.string,
+  categories: PropTypes.array,
+  title: PropTypes.string,
+  excerpt: PropTypes.string,
+  id: PropTypes.excerpt,
+  cover: PropTypes.object,
+  createdAt: PropTypes.string,
+};
