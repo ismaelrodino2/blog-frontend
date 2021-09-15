@@ -12,7 +12,7 @@ export default function Home({ posts, setting }) {
         <title>{setting.blogName}</title>
         <meta name="description" content={setting.blogDescription} />
       </Head>
-      <PostsTemplate posts={posts} setting={setting} />
+      <PostsTemplate posts={posts} settings={setting} />
     </>
   );
 }

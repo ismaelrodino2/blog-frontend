@@ -30,5 +30,5 @@ export function Base({ settings, children }) {
 }
 Base.propTypes = {
   children: PropTypes.object,
-  settings: PropTypes.ReactNode,
+  settings: PropTypes.object,
 };
