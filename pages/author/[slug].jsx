@@ -8,7 +8,6 @@ import { PostsTemplate } from '../../src/templates/PostsTemplate';
 export default function AuthorPage({ posts, setting }) {
   const router = useRouter();
 
-  // eslint-disable-next-line no-undef
   if (router.isFallback) {
     return <h1>Loading</h1>;
   }
