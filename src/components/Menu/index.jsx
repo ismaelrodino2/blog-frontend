@@ -21,7 +21,7 @@ export function Menu({ links, blogName, logo }) {
         onClick={handleOpenCloseMenu}
         aria-label="Open or close menu"
         title="Open or close menu"
-        className={`fixed z-20 w-12 h-12 text-red-600 transition duration-500 ease-in-out transform bg-black ${
+        className={`fixed z-20 w-12 h-12 text-red-600 transition duration-500 ease-in-out transform dark:bg-gray-600 bg-black  ${
           menuVisible ? 'translate-x-36' : 'translate-x-5 translate-y-5'
         }`}
       >
@@ -29,7 +29,7 @@ export function Menu({ links, blogName, logo }) {
         {!menuVisible && <MenuIcon aria-label="Open menu" />}
       </a>
       <div
-        className={`fixed top-0 inline-flex flex-col h-screen transition duration-500 ease-in-out transform bg-black z-10 px-2 ${
+        className={`fixed top-0 inline-flex flex-col h-screen transition duration-500 ease-in-out transform dark:bg-gray-600 bg-black z-10 px-2 ${
           menuVisible ? 'translate-x-0 overflow-y-auto' : '-translate-x-60'
         }`}
       >

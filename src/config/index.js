@@ -1,4 +1,4 @@
 export default {
   siteName: 'Ismael Rodino',
-  graphqlURL: 'http://localhost:1337/graphql',
+  graphqlURL: 'https://strapi-blog-1.herokuapp.com/graphql',
 };

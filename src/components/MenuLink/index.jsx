@@ -8,7 +8,7 @@ export const MenuLink = ({ link, newTab, text }) => {
       <a
         href={link}
         target={target}
-        className="pr-24 m-2 text-white border-r-4 border-black hover:border-red-600 hover:text-green-700"
+        className="pr-24 m-2 text-white border-r-4 border-black dark:border-gray-600 dark:hover:border-gray-300 hover:border-red-600 hover:text-green-700"
       >
         {text}
       </a>
