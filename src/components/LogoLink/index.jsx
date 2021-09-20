@@ -1,11 +1,9 @@
-import P from 'prop-types';
 import Image from 'next/image';
-import mock from './mock';
 import PropTypes from 'prop-types';
 
 export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
   const target = newTab ? '_blank' : '_self'; //atenção ->args.
-  const showT = showText ? mock : '';
+  const showT = showText ? text : '';
   return (
     <div
       className={`flex justify-center pb-4 main-container ${

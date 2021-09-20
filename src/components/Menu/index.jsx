@@ -6,8 +6,6 @@ import { useState } from 'react';
 import { LogoLink } from '../LogoLink';
 import { MenuLink } from '../MenuLink';
 
-import mock from './mock';
-
 export function Menu({ links, blogName, logo }) {
   const [menuVisible, setMenuVisible] = useState(false);
   const handleOpenCloseMenu = (event) => {

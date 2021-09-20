@@ -1,5 +1,4 @@
 import { PostCard } from '../PostCard';
-import mock from '../PostCard/mock';
 import PropTypes from 'prop-types';
 
 export function PostGrid({ posts }) {

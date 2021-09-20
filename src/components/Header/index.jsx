@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 import { LogoLink } from '../LogoLink';
-import mock from './mock';
 export function Header({ blogName, blogDescription, logo }) {
   return (
     <div className="main-container">

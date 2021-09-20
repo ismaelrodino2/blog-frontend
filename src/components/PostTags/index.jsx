@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import mock from './mock';
 import PropTypes from 'prop-types';
 
 export function PostTags({ tags }) {

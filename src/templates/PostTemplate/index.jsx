@@ -1,7 +1,6 @@
 import { Post } from '../../components/Post';
 import { Base } from '../Base';
 import { PostTags } from '../../components/PostTags';
-import mock from './mock';
 import PropTypes from 'prop-types';
 import { Comments } from '../../components/Comments';
 

@@ -1,6 +1,5 @@
 import { Base } from '../Base';
 import { PostGrid } from '../../components/PostGrid';
-import mock from './mock';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { loadPosts } from '../../api/load-posts';

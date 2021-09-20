@@ -1,8 +1,3 @@
-// const formatDate = () => {
-//     const date = new Date();
-//     return date.toLocaleString('pt-BR', {
-//     });
-//   };
 import PropTypes from 'prop-types';
 
 export function ArticleMeta({ author, categories }) {
@@ -14,8 +9,6 @@ export function ArticleMeta({ author, categories }) {
           {author.displayName}
         </a>
         <span> | </span>
-        {/* <time dateTime={createdAt}>{formatDate(createdAt)}</time> */}
-        {/* <span> | </span> */}
         {categories.map((category) => {
           return (
             <span key={`article-meta-cat${category.id}`}>

@@ -1,6 +1,5 @@
 import { ArticleHeader } from '../ArticleHeader';
 import { HtmlContent } from '../HtmlContent';
-import mock from './mock';
 import PropTypes from 'prop-types';
 
 export function Post({ post }) {

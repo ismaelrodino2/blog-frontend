@@ -1,6 +1,4 @@
-import { Heading } from '@styled-icons/boxicons-regular';
 import Image from 'next/image';
-import mock from './mock';
 import PropTypes from 'prop-types';
 
 export function PostCard({ slug, cover, excerpt, title }) {

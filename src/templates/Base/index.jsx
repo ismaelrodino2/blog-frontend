@@ -1,9 +1,7 @@
 import { Menu } from '../../components/Menu';
-import { Post } from '../../components/Post';
 import { Footer } from '../../components/Footer';
 import PropTypes from 'prop-types';
 
-import mock from './mock';
 import { Header } from '../../components/Header';
 
 export function Base({ settings, children }) {
