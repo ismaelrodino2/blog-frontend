@@ -28,12 +28,12 @@ export function PostsTemplate({ settings, posts = [], variables }) {
 
   return (
     <>
-      <div className="dark:bg-black dark:text-white">
+      <div className>
         <Base settings={settings}>
           <PostGrid posts={statePosts} />
           <div className="flex justify-center py-5 main-container">
             <button
-              className="p-2 text-white bg-black dark:text-black dark:bg-white rounded-xl"
+              className="p-2 text-white bg-black rounded-xl"
               onClick={handleLoadMorePosts}
               disabled={buttonDisabled}
             >

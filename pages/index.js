@@ -9,12 +9,6 @@ export default function Home({ posts, setting, variables }) {
   return (
     <div className="teste">
       <Head>
-        <button
-          className="text-white bg-dark dark:bg-white dark:text-black"
-          // onClick={document.querySelector('.teste').classList.add('dark')}
-        >
-          DarkMode
-        </button>
         <title>{setting.blogName}</title>
         <meta name="description" content={setting.blogDescription} />
       </Head>

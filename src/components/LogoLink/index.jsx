@@ -28,7 +28,7 @@ export const LogoLink = ({ text, srcImg, link, newTab, showText }) => {
         )}
         {!srcImg && text}
       </a>
-      <div className="flex flex-col self-center pl-5 dark:text-white">
+      <div className="flex flex-col self-center pl-5">
         <h1 className="font-bold ">{showT.blogName}</h1>
         <p className="">{showT.blogDescription}</p>
       </div>
