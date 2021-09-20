@@ -2,6 +2,7 @@ import { useRouter } from 'next/dist/client/router';
 import Head from 'next/head';
 import { loadPosts } from '../../src/api/load-posts';
 import { PostsTemplate } from '../../src/templates/PostsTemplate';
+import PropTypes from 'prop-types';
 
 export default function TagPage({ posts, setting }) {
   const router = useRouter();
@@ -49,4 +50,9 @@ export const getStaticProps = async (ctx) => {
     },
     revalidate: 24 * 60 * 60,
   };
+};
+
+TagPage.propTypes = {
+  posts: PropTypes.array,
+  setting: PropTypes.object,
 };
