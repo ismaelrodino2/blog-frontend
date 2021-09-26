@@ -9,7 +9,7 @@ export function Comments({ id, slug, title, allowComments }) {
       <DiscussionEmbed
         shortname="blog-do-ismael-rodino"
         config={{
-          url: `/post/${slug}`,
+          url: `https://blog-frontend-lac.vercel.app/post/${slug}/`,
           identifier: id,
           title: title,
           language: 'pt_BR',

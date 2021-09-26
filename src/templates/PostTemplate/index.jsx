@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { Comments } from '../../components/Comments';
 
 export function PostTemplate({ settings, post }) {
-  console.log(post.allowComments);
   return (
     <>
       <div>
